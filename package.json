@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-automation",
+  "version": "1.0.0",
+  "description": "A Puppeteer automation script written in TypeScript.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "puppeteer": "^23.11.1"
+  }
+}
